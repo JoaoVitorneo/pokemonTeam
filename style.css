@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Pokemon GB', 'Courier New','sans-serif';
+}
+
+body {
+    height: 1vh;
+    background: url(images/bg-2.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    border: 5px double black;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#title {
+    margin: 10px 10px 20px 10px;
+    font-size: 25px;
+}
+
+#search {
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px dashed black ;
+    outline: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img{
+    width: 80px;
+}
+
+#status {
+    width: 350px;
+    text-align: left;
+    border: 5px double black;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#choose {
+    padding: 10px;
+    margin: 20px; 
+    border: none;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+#choose:hover {
+    transform: scale(1.1);
+}
+
+.team {
+    border: 5px double black;
+    background: #fff;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.team-card {
+    border: 5px double black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 190px;
+    width: 130px;
+    font-size: 8px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 1px black;
+    background: url(images/blueball.png);
+    background-position: center;
+    color: #fff;
+}
